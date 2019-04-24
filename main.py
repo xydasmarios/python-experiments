@@ -28,13 +28,13 @@ def read_file():
             add_student(student)
         f.close()
     except Exception:
-        print("Coudsfsdfsdfld not read file")
+        print("Could not read file")
 
 read_file()
 print_students_titlecase()
 
 while True:
-    a = input("Esdfsdffsdsdfnter yes/no to continue: ")
+    a = input("Enter yes/no to continue: ")
     if a == "yes":
         student_title = input("Enter student title: ")
         student_name = input("Enter student name: ")
