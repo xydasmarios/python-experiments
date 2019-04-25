@@ -34,7 +34,7 @@ read_file()
 print_students_titlecase()
 
 while True:
-    a = input("Enterrrrrrrrrr yes/no to continue: ")
+    a = input("E yes/no to continue: ")
     if a == "yes":
         student_title = input("Enter student title: ")
         student_name = input("Enter student name: ")
