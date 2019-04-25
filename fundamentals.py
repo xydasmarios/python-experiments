@@ -163,3 +163,9 @@
 
 #f = open("myfile.txt", "x")
 #f = open("myfile.txt", "w") #Create a new file if it does not exist:
+
+# import os
+# if os.path.exists("demofile3.txt"):
+#   os.remove("demofile3.txt")
+# else:
+#   print("The file does not exist")
