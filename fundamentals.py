@@ -91,3 +91,75 @@
 # from mymodule import person1
 #
 # print(person1["age"])
+
+
+# import json
+#
+# # some JSON:
+# x =  '{ "name":"John", "age":30, "city":"New York"}'
+#
+# # parse x:
+# y = json.loads(x)
+#
+# # the result is a Python dictionary:
+# print(y["age"])
+
+# import json
+#
+# # a Python object (dict):
+# x = {
+#   "name": "John",
+#   "age": 30,
+#   "city": "New York"
+# }
+#
+# # convert into JSON:
+# y = json.dumps(x)
+#
+# # the result is a JSON string:
+# print(y)
+
+# import json
+#
+# x = {
+#   "name": "John",
+#   "age": 30,
+#   "married": True,
+#   "divorced": False,
+#   "children": ("Ann","Billy"),
+#   "pets": None,
+#   "cars": [
+#     {"model": "BMW 230", "mpg": 27.5},
+#     {"model": "Ford Edge", "mpg": 24.1}
+#   ]
+# }
+#
+# # use four indents to make it easier to read the result:
+# print(json.dumps(x, indent=4))
+
+
+# f = open("demofile.txt", "r")
+#
+# print(f.read())
+
+# f = open("demofile.txt", "r")
+# for x in f:
+#   print(x)
+
+# f = open("demofile.txt", "r")
+#
+# print(f.readline())
+#
+# f.close()
+
+# f = open("demofile2.txt", "a")
+# f.write("Now the file has more content!")
+# f.close()
+#
+# #open and read the file after the appending:
+# f = open("demofile2.txt", "r")
+# print(f.read())
+
+
+#f = open("myfile.txt", "x")
+#f = open("myfile.txt", "w") #Create a new file if it does not exist:
