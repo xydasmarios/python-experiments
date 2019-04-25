@@ -58,22 +58,36 @@
 #         return -1
 
 
-class Person:
-    def __init__(self, fname, lname):
-        self.firstname = fname
-        self.lastname = lname
+# class Person:
+#     def __init__(self, fname, lname):
+#         self.firstname = fname
+#         self.lastname = lname
+#
+#     def printname(self):
+#         print(self.firstname, self.lastname)
+#
+#
+# class Student(Person):
+#     def __init__(self, fname, lname):
+#         Person.__init__(self, fname, lname)
+#
+#     def welcome(self):
+#         print("welcome", self.firstname, self.lastname)
+#
+#
+# x = Student("Mike", "Olsen")
+# x.welcome()
 
-    def printname(self):
-        print(self.firstname, self.lastname)
 
+# import mymodule
+#
+# mymodule.greeting("Jonathan")
 
-class Student(Person):
-    def __init__(self, fname, lname):
-        Person.__init__(self, fname, lname)
+# import mymodule as mx
+#
+# a = mx.person1["age"]
+# print(a)
 
-    def welcome(self):
-        print("welcome", self.firstname, self.lastname)
-
-
-x = Student("Mike", "Olsen")
-x.welcome()
+# from mymodule import person1
+#
+# print(person1["age"])
